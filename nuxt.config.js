@@ -1,7 +1,9 @@
+import { Property } from "grapesjs";
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'بن کارت سازمانی بن ایران',
+    title: 'خرید پنیر لیقوان',
     htmlAttrs: {
       lang: 'fa',
       dir:'rtl',
@@ -12,7 +14,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'فروشگاه دلیان عرضه کننده پنیر لیقوان درجه' },
+      { hid: 'og:description', name: 'og:description',property: 'og:description', content: 'فروشگاه دلیان عرضه کننده پنیر لیقوان درجه' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
