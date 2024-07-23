@@ -197,11 +197,6 @@
 </template>
 <script>
 export default {
-  head() {
-    return {
-      title: 'صفحه اصلی',
-    }
-  },
   data() {
     return {
       currentSlide: 0,

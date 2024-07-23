@@ -28,11 +28,13 @@
                 </span>
               </p>
             </div>
-            <button class="button is-link is-light ml-3 border-radius-search-input-header">
+            <a href="/singup" class="ml-3">
+            <button class="button is-link is-light border-radius-search-input-header"> 
               <span class="icon">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </span>
             </button>
+          </a>
             <button class="button is-success is-light border-radius-search-input-header">
               <span class="icon">
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
