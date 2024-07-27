@@ -28,7 +28,7 @@
           <p class="has-text-success-dark has-text-weight-bold"> تماس با ما </p>
           <ul>
             <li class="my-4">
-              <a href="tel:123456789" class="has-text-grey-dark"> تلفن : 123456789</a>
+              <a href="tel:09021459616" class="has-text-grey-dark"> تلفن : 09021459616</a>
             </li>
             <li class="my-4">
               <a href="#" class="has-text-grey-dark"> واتس آپ</a>
@@ -67,10 +67,10 @@
           <p class="has-text-success-dark has-text-weight-bold"> تماس با ما </p>
           <ul>
             <li class="my-4">
-              <a href="tel:" class="pr-4 has-text-grey-dark"> تلفن : 123456789</a>
+              <a href="tel:09021459616" class="pr-4 has-text-grey-dark"> تلفن : 09021459616</a>
             </li>
             <li class="my-4">
-              <a href="#123456789" class="pr-4 has-text-grey-dark"> واتس آپ</a>
+              <a href="https://wa.me/+989021459616" class="pr-4 has-text-grey-dark"> واتس آپ</a>
             </li>
           </ul>
         </div>
