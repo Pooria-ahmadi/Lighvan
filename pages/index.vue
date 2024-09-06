@@ -38,8 +38,8 @@
       </div>
     </div>
     <div class="columns mx-4 overflow-x my-5 is-justify-content-center my-6 py-6">
-      <div class="column mx-3 has-background-success-dark is-rounded is-6 has-text-centered">
-        <a class="is-size-4 has-text-centered py-5 has-text-white is-rounded-five" href="tel:+989021459616">
+      <div class="column mx-3 has-background-success-dark is-rounded is-6 has-text-centered is-rounded-five">
+        <a class="is-size-4 has-text-centered py-5 has-text-white" href="tel:+989021459616">
           خرید سازمانی مستقیم از تولید کننده
         </a>
       </div>
