@@ -10,7 +10,7 @@
             </div>
             <div class="column pb-0 has-text-centered">
                 <a href="/">
-                    <img src="logo.png" alt="لوگو دلیان">
+                    <img class="logo-image" src="logo.png" alt="لوگو دلیان">
                 </a>
             </div>
             <div class="column pb-0 has-text-left">

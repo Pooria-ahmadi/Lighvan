@@ -5,7 +5,7 @@
         <div class="column py-0">
           <div class="navbar-start is-hidden-mobile ">
             <a class="pt-1" href="/">
-              <img src="logo.png" />
+              <img class="logo-image" src="logo.png" />
             </a>
             <NuxtLink class="navbar-item mr-6 has-text-weight-semibold" to="/">
               خانه
