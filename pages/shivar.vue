@@ -36,9 +36,9 @@
           </div>
 
           <div class="field">
-            <button class="button is-primary is-medium border-radius" @click="finalizeOrder">
-              سبد خرید
-            </button>
+            <a href="+989021459616" class="button is-primary is-medium border-radius" >
+              خرید
+            </a>
           </div>
 
           <div class="content mt-4">
