@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "config": {
-    "nuxt":{
-      "port":"2890"
+    "nuxt": {
+      "port": "2890"
     }
   },
- "scripts": {
+  "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",

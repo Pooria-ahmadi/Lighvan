@@ -30,7 +30,8 @@
           <div class="pt-3 has-text-centered">
             <p class="has-text-weight-semibold is-size-5 has-text-info-dark"> {{ card.title }}</p>
             <p class="mt-3">{{ card.content }} </p>
-            <NuxtLink to="/packone" class="button is-link is-rounded has-text-weight-semibold my-5">خرید </NuxtLink>
+            <p class="mt-3 has-text-danger">{{ card.price }} تومان</p>
+            <a href="tel:09021459616" class="button is-link is-rounded has-text-weight-semibold my-5 has-background-primary">خرید </a>
           </div>
         </div>
       </div>
@@ -46,12 +47,12 @@
           <div class="column has-text-centered">
             <div class="columns is-mobile is-centered is-vcentered mx-6 white-color-text">
               <div class="column has-text-centered is-half">
-                <p class="has-text-weight-bold is-size-2 mb-5">+30</p>
-                <p class="has-text-weight-bold is-size-6">پروژه های دریافت شده</p>
+                <p class="has-text-weight-bold is-size-2 mb-5">+16</p>
+                <p class="has-text-weight-bold is-size-6">پنیر متنوع</p>
               </div>
               <div class="column has-text-centered is-half">
-                <p class="has-text-weight-bold is-size-2 mb-5">+30</p>
-                <p class="has-text-weight-bold is-size-6"> پورژه های تمام شده</p>
+                <p class="has-text-weight-bold is-size-2 mb-5">+1500</p>
+                <p class="has-text-weight-bold is-size-6">مشتری فعال</p>
               </div>
               <div class="column has-text-centered is-half">
                 <p class="has-text-weight-bold is-size-2 mb-5">+30</p>
@@ -205,14 +206,14 @@ export default {
         { image: 'White_cheese-slide-2.jpg', alt: 'پنیر لیقوان', caption: 'پنیر لیقوان شیور', subtittle: 'طعم اصیل لیقوان شیور', color: 'has-text-info-dark', test: '/shivar', colorbutton: 'has-background-info-dark' },
       ],
       cards: [
-        { title: 'پنیر یواف', content: '400 گرم', image: '2.jpg' },
+        /*{ title: 'پنیر یواف', content: '400 گرم', image: '2.jpg' },
         { title: 'پنیر یواف', content: '5 کیوگرم', image: '3.jpg' },
         { title: 'پنیر یواف', content: '16 کیلوگرم', image: '4.jpg' },
         { title: 'پنیر لیقوان شاهی', content: '400 گرم', image: '2.jpg' },
         { title: 'پنیر لیقوان شاهی', content: '800 گرم', image: '3.jpg' },
-        { title: 'پنیر لیقوان شیور', content: '400 گرم پکی ', image: '3.jpg' },
-        { title: 'پنیر لیقوان شیور', content: ' 400 گرم 12 تایی', image: '3.jpg' },
-        { title: 'پنیر لیقوان شیور', content: '800 گرم 8 تایی', image: '3.jpg' },
+        { title: 'پنیر لیقوان شیور', content: ' 400 گرم 12 تایی', image: '3.jpg' },*/
+        { title: 'پنیر لیقوان شیور', content: '400 گرم پکی ', image: '3.jpg' , price:'۱۹۸،۵۰۰'},
+        { title: 'پنیر لیقوان شیور', content: '800 گرم 8 تایی', image: '3.jpg' , price:'۳۴۸،۵۰۰'},
       ]
     }
   },
