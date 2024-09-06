@@ -19,8 +19,8 @@
       <span v-for="(dot, index) in slides" :key="index" class="dot" :class="{ 'active': index === currentSlide }"
         @click="changeSlide(index)"></span>
     </div>
-    <div class="columns mt-4 mx-6 overflow-x">
-      <div class="column mx-3  is-2" v-for="(card, index) in cards" :key="index">
+    <div class="columns mt-4 mx-6 overflow-x mb-5 is-justify-content-center">
+      <div class="column mx-3  is-3" v-for="(card, index) in cards" :key="index">
         <div class="card">
           <div class="card-image">
             <figure class="image">
@@ -31,9 +31,17 @@
             <p class="has-text-weight-semibold is-size-5 has-text-info-dark"> {{ card.title }}</p>
             <p class="mt-3">{{ card.content }} </p>
             <p class="mt-3 has-text-danger">{{ card.price }} تومان</p>
-            <a href="tel:09021459616" class="button is-link is-rounded has-text-weight-semibold my-5 has-background-primary">خرید </a>
+            <a href="tel:+989021459616"
+              class="button is-link is-rounded has-text-weight-semibold my-5 has-background-primary">خرید </a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="columns mx-4 overflow-x my-5 is-justify-content-center my-6 py-6">
+      <div class="column mx-3 has-background-success-dark is-rounded is-6 has-text-centered">
+        <a class="is-size-4 has-text-centered py-5 has-text-white is-rounded-five" href="tel:+989021459616">
+          خرید سازمانی مستقیم از تولید کننده
+        </a>
       </div>
     </div>
     <div class="width-1366px-all-page">
@@ -88,7 +96,7 @@
             <h2
               class=" word-space-mobile has-text-centered is-size-4 has-text-weight-bold mt-4 has-background-white py-1">
               خواص پنیر لیقوان شیور
-          </h2>
+            </h2>
             <div class="has-text-centered mt-5">
               <img src="shakhe.png" alt="">
             </div>
@@ -114,8 +122,8 @@
           <source src="Cheese.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="columns is-centered mx-4 is-vcentered  is-flex-direction-row-reverse " data-aos="fade-right" data-aos-offset="300"
-      data-aos-easing="ease-in-sine">
+      <div class="columns is-centered mx-4 is-vcentered  is-flex-direction-row-reverse " data-aos="fade-right"
+        data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="column line-height-description has-text-justified is-7">
           <h2 class="mx-5 word-space-mobile is-size-5 has-text-weight-bold">
             پنیر لیقوان شیور چه خواصی دارد؟
@@ -158,7 +166,7 @@
         </div>
       </div>
       <div class="columns is-centered mx-4 is-vcentered" data-aos="fade-right" data-aos-offset="300"
-      data-aos-easing="ease-in-sine">
+        data-aos-easing="ease-in-sine">
         <div class="column line-height-description has-text-justified is-7">
           <p class="mx-5 word-space-mobile">
             پنیر لیقوانی شیور یک نوع پنیر سنتی ایرانی است که از شیر گوسفند تهیه می‌شود. این پنیر از منطقه لیقوان در
@@ -174,8 +182,8 @@
           </div>
         </div>
       </div>
-      <div class="columns is-centered mx-4 is-vcentered my-4  is-flex-direction-row-reverse" data-aos="fade-right" data-aos-offset="300"
-      data-aos-easing="ease-in-sine">
+      <div class="columns is-centered mx-4 is-vcentered my-4  is-flex-direction-row-reverse" data-aos="fade-right"
+        data-aos-offset="300" data-aos-easing="ease-in-sine">
         <div class="column line-height-description has-text-justified is-7">
           <h2 class="mx-5 word-space-mobile is-size-5 has-text-weight-bold">
             پنیر شاهی چه خواصی دارد؟
@@ -212,8 +220,8 @@ export default {
         { title: 'پنیر لیقوان شاهی', content: '400 گرم', image: '2.jpg' },
         { title: 'پنیر لیقوان شاهی', content: '800 گرم', image: '3.jpg' },
         { title: 'پنیر لیقوان شیور', content: ' 400 گرم 12 تایی', image: '3.jpg' },*/
-        { title: 'پنیر لیقوان شیور', content: '400 گرم پکی ', image: '3.jpg' , price:'۱۹۸،۵۰۰'},
-        { title: 'پنیر لیقوان شیور', content: '800 گرم 8 تایی', image: '3.jpg' , price:'۳۴۸،۵۰۰'},
+        { title: 'پنیر لیقوان شیور', content: '400 گرم پکی ', image: '3.jpg', price: '۱۹۸،۵۰۰' },
+        { title: 'پنیر لیقوان شیور', content: '800 گرم 8 تایی', image: '3.jpg', price: '۳۴۸،۵۰۰' },
       ]
     }
   },

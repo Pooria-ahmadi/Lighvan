@@ -109,7 +109,8 @@
       <div class="columns has-background-light mx-0 mb-0">
         <div class="column mx-6">
           <p class="has-text-weight-bold has-text-justified has-text-centered-mobile has-text-grey line-height-description ">
-           مرجع تخصصی تولید و فروش پنیر لیقوان شاهی و شیور
+            سایت دلیان تنها فروشنده رسمی محصولات شیور در ایران می باشد.
+            با برقراری ارتباط با ما شما می توانید مستقیم از تولید کننده اصلی محصولات را تهیه نمایید.
           </p>
         </div>
         <div class="column mx-6 mt-4">
