@@ -31,8 +31,8 @@
           </div>
 
           <div class="buttons">
-            <button class="button is-success mx-4 border-radius" @click="increment">+</button>
-            <button class="button is-success border-radius" @click="decrement">-</button>
+            <button class="button is-success mx-4 border-radius">+</button>
+            <button class="button is-success border-radius" >-</button>
           </div>
 
           <div class="field">
