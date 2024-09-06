@@ -210,8 +210,8 @@ export default {
     return {
       currentSlide: 0,
       slides: [
+        { image: 'White_cheese-slide-2.jpg', alt: 'پنیر شیور', caption: 'پنیر لیقوان شیور', subtittle: 'طعم اصیل لیقوان شیور', color: 'has-text-info-dark', test: '/shivar', colorbutton: 'has-background-info-dark' },
         { image: 'White_cheese-slide-1.png', alt: 'پنیر لیقوان', caption: ' پنیر لیقوان شاهی', subtittle: 'لذتی از طعم و عمق فرهنگ ایرانی', color: 'has-text-danger-dark', test: '/shahi', colorbutton: 'has-background-danger-dark' },
-        { image: 'White_cheese-slide-2.jpg', alt: 'پنیر لیقوان', caption: 'پنیر لیقوان شیور', subtittle: 'طعم اصیل لیقوان شیور', color: 'has-text-info-dark', test: '/shivar', colorbutton: 'has-background-info-dark' },
       ],
       cards: [
         /*{ title: 'پنیر یواف', content: '400 گرم', image: '2.jpg' },
