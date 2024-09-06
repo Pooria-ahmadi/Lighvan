@@ -88,7 +88,7 @@
             <a href="#">
               <img src="instagram.png" alt="">
             </a>
-            <a href="#">
+            <a href="https://wa.me/+989021459616">
               <img src="whatsapp.png" alt="">
             </a>
           </div>
@@ -97,7 +97,7 @@
             <a href="#">
               <img src="instagram.png" alt="" class="pr-4">
             </a>
-            <a href="#">
+            <a href="https://wa.me/+989021459616">
               <img src="whatsapp.png" alt="" class="pr-1">
             </a>
           </div>
@@ -108,8 +108,8 @@
       </div>
       <div class="columns has-background-light mx-0 mb-0">
         <div class="column mx-6">
-          <p class="has-text-weight-bold has-text-justified has-text-grey line-height-description ">
-            فروشگاه فروش پنیر صبحانه دلیان
+          <p class="has-text-weight-bold has-text-justified has-text-centered-mobile has-text-grey line-height-description ">
+           مرجع تخصصی تولید و فروش پنیر لیقوان شاهی و شیور
           </p>
         </div>
         <div class="column mx-6 mt-4">
