@@ -14,18 +14,20 @@
                 </a>
             </div>
             <div class="column pb-0 has-text-left">
-                <a href="/singup" class="ml-3">
+                <NuxtLink to="/singup" class="ml-3">
                     <button class="button is-link is-light border-radius-search-input-header">
                         <span class="icon">
                             <i class="fa fa-user" aria-hidden="true"></i>
                         </span>
                     </button>
-                </a>
-                <button class="button is-success is-light border-radius-search-input-header">
-                    <span class="icon">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    </span>
-                </button>
+                </NuxtLink>
+                <NuxtLink to="/basket">
+                    <button class="button is-success is-light border-radius-search-input-header">
+                        <span class="icon">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </NuxtLink>
             </div>
         </div>
         <div class="field mx-6">

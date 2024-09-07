@@ -17,39 +17,6 @@
         </p>
       </div>
     </div>
-    <div class="card columns mx-0 p-5 mb-6 is-vcentered" v-for="(card, index) in cards" :key="index">
-      <div class="column is-half has-text-centered zoom-container"data-aos="fade-left" @mouseover="zoomIn" @mouseleave="zoomOut">
-        <img :src="card.image" alt="Placeholder image" class="zoom-image" ref="zoomImage">
-      </div>
-      <div class="column is-half"data-aos="fade-right">
-        <div class="content">
-          <h2 class="title is-4">{{ card.title }}</h2>
-          <p class="subtitle is-5 mt-4"><span>{{ price }}</span> تومان </p>
-
-          <div class="field">
-            <label class="label">تعداد</label>
-            <div class="control">
-              <input class="input" style="width: 180px;" type="number" :value="quantity" readonly>
-            </div>
-          </div>
-
-          <div class="buttons">
-            <button class="button is-success mx-4 border-radius" @click="increment">+</button>
-            <button class="button is-success border-radius" @click="decrement">-</button>
-          </div>
-
-          <div class="field">
-            <button class="button is-primary is-medium border-radius" @click="finalizeOrder">
-              سبد خرید
-            </button>
-          </div>
-
-          <div class="content mt-4">
-            <p class="line-height-description has-text-justified">{{ card.content }} </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script>

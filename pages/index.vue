@@ -37,11 +37,23 @@
         </div>
       </div>
     </div>
-    <div class="columns mx-4 overflow-x my-5 is-justify-content-center my-6 py-6">
-      <div class="column mx-3 has-background-success-dark is-rounded is-6 has-text-centered is-rounded-five">
-        <a class="is-size-4 has-text-centered py-5 has-text-white" href="tel:+989021459616">
+    <div
+      class="columns mx-4 overflow-x my-5 is-vcentered is-centered my-6 py-6 has-background-info is-rounded-five">
+      <div class="column mx-3 is-rounded-five has-text-centered is-5">
+        <p class="has-text-white is-size-4-desktop has-text-weight-bold is-size-5" >
           خرید سازمانی مستقیم از تولید کننده
+        </p>
+        <p class="has-text-white mt-6 line-height-description has-text-justified">
+          فروشگاه دلیان  به عنوان  تنها عرضه کننده محصولات شیور، بهترین قیمت و تازه‌ترین محصول را به سازمان‌ها ارائه می دهد. با خرید از فروشگاه دلیان ،
+          علاوه بر تضمین کیفیت، از تخفیف‌ها و امتیازات ویژه‌ای برخوردار خواهید شد. این شرایط خاص، انتخابی هوشمندانه برای
+          تأمین نیازهای سازمانی شماست.
+        </p>
+        <a href="tel:+989021459616" class="button  is-danger mt-5"
+        >تماس با مدیر فروش
         </a>
+      </div>
+      <div class="column has-text-centered is-5">
+        <img src="B2B-1.jpg" class="is-rounded-five" alt="خرید سازمانی مستقیم از تولید کننده">
       </div>
     </div>
     <div class="width-1366px-all-page">

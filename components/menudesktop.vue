@@ -22,24 +22,27 @@
           <div class="navbar-end is-hidden-mobile">
             <div class="field ml-3 my-0">
               <p class="control has-icons-left">
-                <input class="input is-primary border-radius-search-input-header" type="password" placeholder="جستجو..." />
+                <input class="input is-primary border-radius-search-input-header" type="password"
+                  placeholder="جستجو..." />
                 <span class="icon is-small is-left">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </span>
               </p>
             </div>
-            <a href="/singup" class="ml-3">
-            <button class="button is-link is-light border-radius-search-input-header"> 
-              <span class="icon">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </span>
-            </button>
-          </a>
-            <button class="button is-success is-light border-radius-search-input-header">
-              <span class="icon">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </span>
-            </button>
+            <NuxtLink to="/singup" class="ml-3">
+              <button class="button is-link is-light border-radius-search-input-header">
+                <span class="icon">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
+              </button>
+            </NuxtLink>
+            <NuxtLink to="/basket">
+              <button class="button is-success is-light border-radius-search-input-header">
+                <span class="icon">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </span>
+              </button>
+            </NuxtLink>
           </div>
         </div>
       </div>
