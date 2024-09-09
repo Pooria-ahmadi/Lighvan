@@ -1,5 +1,5 @@
 <template>
-    <div class="font-family">
+    <div>
         <h1 class="has-text-centered mt-6 is-size-3 has-text-weight-normal has-text-info-dark"data-aos="fade-right">قوانین و مقررات</h1>
         <div class="columns is-justify-content-center mx-0">
             <div class="column box is-four-fifths mx-5 my-6 py-6 has-text-justified px-5 has-background-info-light">

@@ -1,5 +1,5 @@
 <template>
-  <div class="font-family">
+  <div>
     <section>
       <hr>
       <div class="columns has-text-right has-background-light mx-0 pt-4 is-hidden-desktop is-hidden-tablet is-flex">

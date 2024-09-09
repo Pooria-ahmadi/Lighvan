@@ -1,5 +1,5 @@
 <template>
-  <div class="font-family">
+  <div>
     <div class="is-relative">
       <div v-for="(slide, index) in slides" :key="index" v-show="index === currentSlide">
         <img :src="slide.image" :alt="slide.alt" style="width: 100%;">

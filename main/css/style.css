@@ -19,6 +19,10 @@
     url('~/fonts/Vazir-Bold.woff') format('woff'),
     url('~/fonts/Vazir-Bold.ttf') format('truetype');
 }
+body,
+* {
+  font-family: vazir !important;
+}
 .overflow-x-html{
   overflow-x: hidden;
 }

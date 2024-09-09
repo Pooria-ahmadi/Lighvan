@@ -1,5 +1,5 @@
 <template>
-  <div class="font-family width-1366px-all-page has-background-success-light">
+  <div class="width-1366px-all-page has-background-success-light">
     <h1 class="has-text-centered under-text-line has-text-weight-bold is-size-3 pt-6 is-size-4-mobile" data-aos="fade-left"> پنیر لیقوان
       شاهی </h1>
     <div class="columns is-centered mx-0 py-6" data-aos="fade-left">

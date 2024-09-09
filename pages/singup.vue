@@ -1,5 +1,5 @@
 <template>
-    <div class="font-family">
+    <div>
         <div class="columns mx-2 my-0">
             <div class="column is-half has-background-white  mx-4 py-0 my-0">
                 <div class="columns is-centered mt-6">

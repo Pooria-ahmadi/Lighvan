@@ -1,5 +1,5 @@
 <template>
-  <div class="font-family is-hidden-tablet-only">
+  <div class="is-hidden-tablet-only">
     <div class="box is-hidden-mobile py-3">
       <div class="columns">
         <div class="column py-0">
@@ -36,7 +36,7 @@
                 </span>
               </button>
             </NuxtLink>
-            <NuxtLink to="/basket">
+            <NuxtLink to="/cart">
               <button class="button is-success is-light border-radius-search-input-header">
                 <span class="icon">
                   <i class="fa fa-shopping-cart" aria-hidden="true"></i>

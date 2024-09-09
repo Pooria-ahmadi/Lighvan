@@ -1,5 +1,5 @@
 <template>
-    <div class="font-family">
+    <div>
         <img src="header-aboutwe.png" alt="تماس با ما و پشتیبانی " style="width: 100%;">
 
         <h1 class="has-text-centered has-text-weight-bold has-text-success-dark is-size-2-desktop is-size-3-mobile is-size-2-tablet"

@@ -1,5 +1,5 @@
 <template>
-  <div class="font-family">
+  <div>
     <div class="is-relative is-hidden-mobile" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <img src="poster-aboutwe.jpg" alt="" width="100%">
       <div class="columns is-mobile mx-0">
