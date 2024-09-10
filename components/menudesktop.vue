@@ -32,14 +32,14 @@
             <NuxtLink to="/singup" class="ml-3">
               <button class="button is-link is-light border-radius-search-input-header">
                 <span class="icon">
-                  <i class="fa fa-user" aria-hidden="true"></i>
+                  <img src="user.png" alt="">
                 </span>
               </button>
             </NuxtLink>
             <NuxtLink to="/cart">
               <button class="button is-success is-light border-radius-search-input-header">
                 <span class="icon">
-                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <img src="shopping-cart.png" alt="">
                 </span>
               </button>
             </NuxtLink>
