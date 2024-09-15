@@ -2,26 +2,28 @@
   font-family: Vazir;
   font-style: normal;
   font-weight: normal;
-  src: url('~/fonts/Vazir.eot');
-  src: url('~/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
-    url('~/fonts/Vazir.woff2') format('woff2'),
-    url('~/fonts/Vazir.woff') format('woff'),
-    url('~/fonts/Vazir.ttf') format('truetype');
+  src: url('~/fonts/Vazir-FD-WOL.eot') format('eot'),
+    url('~~/fonts/Vazir-FD-WOL.woff') format('woff'),
+    url('~~/fonts/Vazir-FD-WOL.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Vazir;
+  font-family: boldvazir;
   font-style: normal;
-  font-weight: bold;
-  src: url('~/fonts/Vazir-Bold.eot');
-  src: url('~/fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-    url('~/fonts/Vazir-Bold.woff2') format('woff2'),
-    url('~/fonts/Vazir-Bold.woff') format('woff'),
-    url('~/fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: normal;
+  src: url('~/fonts/Vazir-Bold-FD-WOL.eot') format('eot'),
+    url('~/fonts/Vazir-Bold-FD-WOL.ttf') format('ttf'),
+    url('~/fonts/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('~/fonts/Vazir-Bold-FD-WOL.woff2') format('woff2');
 }
+
 body,
 * {
   font-family: vazir !important;
+}
+
+.font-bold-number {
+  font-family: boldvazir !important;
 }
 .overflow-x-html{
   overflow-x: hidden;
@@ -62,7 +64,6 @@ body,
 
 .zoom-image.zoomed {
   transform: scale(1.5);
-  /* میزان بزرگ‌نمایی را می‌توانید تغییر دهید */
 }
 
 .position-absolute-text-about-we {

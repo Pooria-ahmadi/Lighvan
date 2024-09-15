@@ -25,7 +25,7 @@
                 <input class="input is-primary border-radius-search-input-header" type="password"
                   placeholder="جستجو..." />
                 <span class="icon is-small is-left">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <img src="search-16.png" alt="">
                 </span>
               </p>
             </div>
@@ -37,11 +37,14 @@
               </button>
             </NuxtLink>
             <NuxtLink to="/cart">
-              <button class="button is-success is-light border-radius-search-input-header">
+              <div class="cart-icon">
+                <button class="button is-success is-light border-radius-search-input-header">
                 <span class="icon">
                   <img src="shopping-cart.png" alt="">
+                  <span v-if="cartItemCount > 0" class="cart-count">{{ cartItemCount }}</span>
                 </span>
               </button>
+              </div>
             </NuxtLink>
           </div>
         </div>
@@ -49,3 +52,29 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  computed : {
+cartItemCount(){
+  return this.$store.getters.cartItemCount
+}
+  }
+}
+
+</script>
+<style>
+.cart-icon {
+  position: relative;
+  display: inline-block;
+}
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: rgb(1, 252, 22);
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+</style>

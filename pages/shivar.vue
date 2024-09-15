@@ -15,10 +15,10 @@
       </div>
     </div>
     <div class="card columns mx-0 p-5 box mb-6 is-vcentered" v-for="(card, index) in cards" :key="index">
-      <div class="column is-half has-text-centered zoom-container" data-aos="fade-left" @mouseover="zoomIn" @mouseleave="zoomOut">
-        <img :src="card.image" alt="Placeholder image" class="zoom-image" ref="zoomImage">
+      <div class="column is-half has-text-centered zoom-container" @mouseover="zoomIn" @mouseleave="zoomOut">
+        <img :src="card.image" class="zoom-image">
       </div>
-      <div class="column is-half" data-aos="fade-right">
+      <div class="column is-half" >
         <div class="content">
           <h2 class="title is-4">{{ card.title }}</h2>
           <p class="subtitle is-5 mt-4"><span>{{ card.price }}</span> تومان </p>
@@ -26,7 +26,7 @@
           <div class="field">
             <label class="label">تعداد</label>
             <div class="control">
-              <input class="input" style="width: 180px;" type="number" :value="card.quantity" readonly>
+              <input :id="'id' + index" class="input" style="width: 180px;" type="number" :value="card.quantity" readonly>
             </div>
           </div>
 
@@ -47,6 +47,12 @@
         </div>
       </div>
     </div>
+    <div v-if="showPopup" class="is-rounded box p-4 popup  has-background-success has-text-white">
+      محصول به سبد خرید اضافه شد!
+    </div>
+    <div v-if="showvalue" class="is-rounded box p-4 popup  has-background-danger has-text-white">
+      تعداد محصول مورد نظر را انتخاب کنید
+    </div>
   </div>
 </template>
 
@@ -60,6 +66,8 @@ export default {
   },
   data() {
     return {
+      showPopup: false,
+      showvalue:false,
       cards: [
         { quantity: 0 , title: 'پنیر 400 گرمی شیور', content: 'پنیر صبحانه شیور با اصالت فرانسوی خود، بخشی از فرهنگ غذایی این کشور است و به دلیل ویژگی‌های مغذی و طعم ملایم، در سراسر جهان محبوب شده است.', image: '44.png',  price: '۱۹۸،۵۰۰'  },
         { quantity: 0 , title: 'پنیر 800 گرمی شیور', content: 'پنیر صبحانه شیور با اصالت فرانسوی خود، بخشی از فرهنگ غذایی این کشور است و به دلیل ویژگی‌های مغذی و طعم ملایم، در سراسر جهان محبوب شده است.', image: '33.png', price: '۳۴۸،۵۰۰'},
@@ -67,16 +75,24 @@ export default {
     }
   },
   methods: {
-    ...mapMutations(['addtoproducts']),
-    addToCart(card) {
-      if (card.quantity === 0) {
-        alert('سبد خرید شما خالی است، لطفا تعداد محصول را افزایش دهید.');
-        return;
-      }
+    ...mapMutations(['addtoproducts', 'incrementProductQuantity', 'decrementProductQuantity']),
+
+  addToCart(card) {
+    if (card.quantity === 0) {
+      this.showvalue = true;
+    } else {
       this.addtoproducts(card);
-    },
+      this.showPopup = true;
+      setTimeout(() => {
+        this.showPopup = false;
+      }, 5000);
+    }
+    setTimeout(() => {
+      this.showvalue = false;
+    }, 5000);
+  },
     increment(index) {
-      this.cards[index].quantity++;
+      document.getElementById('id' + index).value++
     },
     decrement(index) {
       if (this.cards[index].quantity > 0) {
@@ -94,3 +110,11 @@ export default {
   },
 }
 </script>
+<style>
+.popup {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+</style>
