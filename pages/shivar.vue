@@ -95,9 +95,7 @@ export default {
       document.getElementById('id' + index).value++
     },
     decrement(index) {
-      if (this.cards[index].quantity > 0) {
-        this.cards[index].quantity--;
-      }
+        document.getElementById('id' + index).value--;
     },
     zoomIn(event) {
       const image = event.currentTarget.querySelector('.zoom-image');
