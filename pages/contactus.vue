@@ -25,17 +25,21 @@
                                 تلفن پشتیبانی
                             </p>
                         </div>
-                        <p class="mt-5 mr-6">
-                            021-12345678
-                        </p>
+                        <div class="mr-6 mt-4">
+                            <a href="tel:09021459616" class="mr-6 has-text-black">
+                                09021459616
+                            </a>
+                        </div>
                         <div class="is-flex mr-6 mt-4"><img src="email.png" alt="ایمیل">
                             <p class="pt-2 mr-3 has-text-weight-bold">
                                 ایمیل
                             </p>
                         </div>
-                        <p class="mt-5 mr-6">
-                            admin@gmail.com
-                        </p>
+                        <div class="mt-4 mr-6">
+                            <a href="mailto:info@delian.ir" class="mr-6 has-text-black">
+                                info@delian.ir
+                            </a>
+                        </div>
                     </div>
                     <div class="column">
 
@@ -45,7 +49,7 @@
                             </p>
                         </div>
                         <p class="mt-5 mr-6">
-                            تهران
+                            تهران - بازار بزرگ
                         </p>
                     </div>
                 </div>

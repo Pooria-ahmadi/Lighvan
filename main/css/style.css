@@ -25,9 +25,16 @@ body,
 .font-bold-number {
   font-family: boldvazir !important;
 }
-.overflow-x-html{
+
+.height-100 {
+  width: 100%;
+  height: auto;
+}
+
+.overflow-x-html {
   overflow-x: hidden;
 }
+
 .border-radius-search-input-header {
   border-radius: 17px;
 }
@@ -230,10 +237,10 @@ body,
   text-shadow: 2px 2px 4px #000000;
 }
 
-.is-rounded-five{
+.is-rounded-five {
   border-radius: 50px;
 }
 
-.logo-image{
+.logo-image {
   width: 50px;
 }

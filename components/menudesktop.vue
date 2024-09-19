@@ -11,10 +11,10 @@
               خانه
             </NuxtLink>
             <NuxtLink class="navbar-item has-text-weight-semibold" to="/shivar">
-              شیور
+              پنیر لیقوان شیور
             </NuxtLink>
             <NuxtLink class="navbar-item has-text-weight-semibold" to="/shahi">
-              شاهی
+              پنیر لیقوان شاهی
             </NuxtLink>
           </div>
         </div>
@@ -36,7 +36,7 @@
                 </span>
               </button>
             </NuxtLink>
-            <NuxtLink to="/cart">
+            <NuxtLink to="/basket">
               <div class="cart-icon">
                 <button class="button is-success is-light border-radius-search-input-header">
                 <span class="icon">

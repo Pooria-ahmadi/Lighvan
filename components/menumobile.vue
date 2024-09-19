@@ -21,7 +21,7 @@
                         </span>
                     </button>
                 </NuxtLink>
-                <NuxtLink to="/cart">
+                <NuxtLink to="/basket">
                     <div class="cart-icon">
                         <button class="button is-success is-light border-radius-search-input-header">
                             <span class="icon">

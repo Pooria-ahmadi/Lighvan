@@ -1,9 +1,10 @@
 <template>
     <div>
-        <div class="columns mx-2 my-0">
-            <div class="column is-half has-background-white  mx-4 py-0 my-0">
+        <div class="columns is-vcentered mx-0 my-0">
+            <!-- Column with form -->
+            <div class="column is-half has-background-white mx-auto py-0 my-0 has-text-centered">
                 <div class="columns is-centered mt-6">
-                    <div class="column box is-8-desktop">
+                    <div class="column box is-8-desktop is-10-mobile mx-auto">
                         <div class="has-text-centered">
                             <a href="/">
                                 <img src="logo.png" alt="لوگو دلیان">
@@ -24,12 +25,14 @@
                     </div>
                 </div>
             </div>
-            <div class="column is-half has-background-white is-hidden-mobile py-0 my-0">
-                <img src="lighvan-cheese-8(1).jpg" class="border-radius-search-input-header" style="height:100% ;"alt="پنیر لیقوان">
+            <!-- Column with image -->
+            <div class="column is-half has-background-white is-hidden-mobile p-0 is-flex is-align-items-center">
+                <img src="lighvan-cheese-8(1).jpg" class="height-100" alt="پنیر لیقوان">
             </div>
         </div>
     </div>
 </template>
+
 <script>
 export default {
     layout: 'login'
