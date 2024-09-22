@@ -83,26 +83,26 @@ export default {
   methods: {
     ...mapMutations(['addtoproducts', 'incrementProductQuantity', 'decrementProductQuantity']),
 
-    addToCart(card, index) {
-    if (card.quantity === 0) {
-      this.showvalue = true;
-      setTimeout(() => {
-        this.showvalue = false;
-      }, 5000);
-    } else {
+    addToCart(card) {
+  if (card.quantity === 0) {
+    this.showvalue = true;
+    setTimeout(() => {
       this.showvalue = false;
-      this.addtoproducts({
-          title: card.title,
-          quantity: card.quantity,
-          price: card.price,
-          image: card.image,
-        });
-      this.showPopup = true;
-      setTimeout(() => {
-        this.showPopup = false;
-      }, 5000);
-    }
-  },
+    }, 5000);
+  } else {
+    this.showvalue = false;
+    this.addtoproducts({
+      title: card.title,
+      quantity: card.quantity,
+      price: card.price,
+      image: card.image,
+    });
+    this.showPopup = true;
+    setTimeout(() => {
+      this.showPopup = false;
+    }, 5000);
+  }
+},
   increment(index) {
     const input = document.getElementById('id' + index);
     input.value++;

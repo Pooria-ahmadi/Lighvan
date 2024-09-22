@@ -15,8 +15,12 @@
             <div class="column px-0 is-2-desktop">
               <img :src="item.image" alt="">
             </div>
-            <div class="column px-0 is-1-mobile">
-              {{ item.quantity }}
+            <div class="column px-0 is-1-mobile is-flex is-justify-content-center">
+              <button class="button  mx-4 border-radius" @click="increment(index)">+</button>
+              <p class="pt-2">
+                {{ item.quantity }}
+              </p>
+              <button class="button  border-radius mx-4" @click="decrement(index)">-</button>
             </div>
             <div class="column px-0 is-3-mobile has-text-success-dark">
              قیمت {{ item.price }} تومان  
@@ -36,8 +40,10 @@
     </div>
   </div>
 </template>
+
 <script>
 import { mapGetters, mapMutations } from 'vuex'
+
 export default {
   head() {
     return {
@@ -48,16 +54,26 @@ export default {
     ...mapGetters(['cartItems', 'cartItemCount']),
   },
   methods: {
-    ...mapMutations(['remove_from_products', 'clear_basket']),
+    ...mapMutations(['remove_from_products', 'clear_basket', 'incrementproductsqty', 'decrementproductsqty']),
+
+    increment(index) {
+      this.incrementproductsqty(index);
+    },
+    decrement(index) {
+      if (this.cartItems[index].quantity > 0) {
+        this.decrementproductsqty(index);
+      }
+    },
     removeproducts(index) {
-      this.remove_from_products(index)
+      this.remove_from_products(index);
     },
     clearbasket() {
-      this.clear_basket()
+      this.clear_basket();
     }
   }
 }
 </script>
+
 <style>
 th,
 td {
